@@ -1,7 +1,5 @@
-# icon@all
-
-A shell script that converts your input image to all kind of "Icon" represenations as described here: https://developer.apple.com/LIBRARY/IOS/qa/qa1686/_index.html
-
+- Shell script
+- Converts input image to output formats as described here: https://developer.apple.com/LIBRARY/IOS/qa/qa1686/_index.html
 - Supported input image formats: **png, jpg, gif, pdf, tiff, psd**
 - Stores generated files in same directory as input image
 - No `ImageMagick` dependency. Script uses `sips`.
