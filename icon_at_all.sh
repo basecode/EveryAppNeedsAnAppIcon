@@ -1,16 +1,17 @@
 #!/bin/bash
 #
 # author: @basecode
-# version: 0.2
+# version: 0.3
 #
 # Generates App Icons for iPad and iPhone. It converts your input image
 # (png, jpg, gif, pdf, tiff, psd) to all kind of "icon" representations
 # as described here:
-# https://developer.apple.com/LIBRARY/IOS/qa/qa1686/_index.html
+# * https://developer.apple.com/LIBRARY/IOS/qa/qa1686/_index.html
+# * https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/IconMatrix.html
 #
 
-NAMES=( "Icon-60@2x.png" "Icon-60@3x.png" "Icon-76.png" "Icon-76@2x.png" "Icon-Small-40.png" "Icon-Small-40@2x.png" "Icon-Small-40@3x.png" "Icon-Small.png" "Icon-Small@2x.png" "Icon-Small@3x.png" "Icon.png" "Icon@2x.png" "Icon-72.png" "Icon-72@2x.png" "Icon-Small-50.png" "Icon-Small-50@2x.png" "iTunesArtwork" "iTunesArtwork@2x" )
-SIZES=( 120 180 76 152 40 80 120 29 58 87 57 114 72 144 50 100 512 1024 )
+NAMES=( "Icon-83_5@2x.png" "Icon-60@2x.png" "Icon-60@3x.png" "Icon-76.png" "Icon-76@2x.png" "Icon-Small-40.png" "Icon-Small-40@2x.png" "Icon-Small-40@3x.png" "Icon-Small.png" "Icon-Small@2x.png" "Icon-Small@3x.png" "Icon.png" "Icon@2x.png" "Icon-72.png" "Icon-72@2x.png" "Icon-Small-50.png" "Icon-Small-50@2x.png" "iTunesArtwork" "iTunesArtwork@2x" )
+SIZES=( 167 120 180 76 152 40 80 120 29 58 87 57 114 72 144 50 100 512 1024 )
 BASEDIR=$(dirname "$@")
 
 if [ ! -d "$BASEDIR" ]; then
