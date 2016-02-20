@@ -14,4 +14,4 @@ It converts your input image to all kind of "icon" representations as described 
 - Stores generated files in same directory as input image
 - No `ImageMagick` dependency. Script uses `sips`.
 - "iTunesArtwork" icon files are in png format, but named without the .png extension as required by Apple.
-- Put the `.workflow` folder in `~/Library/Services`.
+- When you open the `.workflow` folder, OSX usually automatically puts the workflow in `~/Library/Services`.
